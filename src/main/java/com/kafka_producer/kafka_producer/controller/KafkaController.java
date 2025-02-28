@@ -12,12 +12,12 @@ public class KafkaController {
 
 
 
-    private final KafkaProducerService producerService;
+//    private final KafkaProducerService producerService;
 
-    @Autowired
-    public KafkaController(KafkaProducerService producerService) {
-        this.producerService = producerService;
-    }
+//    @Autowired
+//    public KafkaController(KafkaProducerService producerService) {
+//        this.producerService = producerService;
+//    }
 
     @PostMapping("/publish")
     public ResponseEntity<String> publishMessage(@RequestParam("message") String message) {

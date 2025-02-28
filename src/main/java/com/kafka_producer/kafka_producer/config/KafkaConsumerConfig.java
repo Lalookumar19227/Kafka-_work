@@ -14,17 +14,9 @@ import org.springframework.kafka.core.ConsumerFactory;
 import java.util.HashMap;
 import java.util.Map;
 
-
-
-
-
 @Configuration
 @EnableKafka
 public class KafkaConsumerConfig {
-
-
-
-
 
     @Bean
     public ConsumerFactory<String, String> consumerFactory() {
